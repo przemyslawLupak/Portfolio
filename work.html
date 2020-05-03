@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przemyslaw Lupak</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha156-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" 
+    rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="portfolio.html"> <img src="logo.png"  alt=""></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="portfolio.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#Description" class="nav__link">Description</a></li>
+                <li class="nav__item"><a href="#Description" class="nav__link">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- introduction -->
+    <section class="intro work-detail" id="home">
+        <h1 class="section__title section__title--work-detail">
+            Pokedex 
+        </h1>
+        <p class="section__subtitle section__subtitle--intro "><span>front-end</span></p>
+        <img src="pokedex-big.png" class="intro__img" alt="a pic of me">
+    </section>
+    <section class="work-description" id="Description">
+        <h1>Work Description</h1>
+        <div class="spec">
+           <h3>Language: <span>JavaScript/Html/CSS/TypeScript</span></h3><br>
+        <h3>Tools: <span>Angular/Bootstrap</span></h3><br>
+        <h3>Date: <span>04.04.2020-16.04.2020</span></h3><br>
+        </div>
+        <div class="work-description-body">
+            <p>Pokedex is the first project in which I used foreign API, made in Angular and using
+                pokeapi.co. API was not a problem for me after reading the documentation, but I
+                spent a lot of time for polishing it. For the first time I had to use data catching. In my
+                opinion, the final effect is adequate and befitting, and I&#39;m satisfies with it in terms of
+                functionality. I think the only aspect I should spend more time to work on with is User
+                Interface. Design is based on Bootstrap and is very modest, but as a result of
+                displaying the application on the smaller screens such as phones is a success. For
+                the time devoted to this project is nearly two weeks due to the deadline, but I’m
+                going to refresh the interface by using CSS more in near future.
+            </p>
+        </div>
+        <a class="btn">Demo</a><a class="btn" href="https://github.com/przemyslawLupak/pokedex" target="_blank">GitHub</a>
+    </section>
+     <!--Footer-->
+     <footer class="footer">
+        <a href="mailto:przemyslaw.lupak@gmail.com" class="footer--link">przemyslaw.lupak@gmail.com</a>
+        <ul class="social-list">
+            <li class="social__list--item">
+                <a href="" class="social__list--link"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="social__list--item">
+                <a href="" class="social__list--link"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="social__list--item">
+                <a href="https://github.com/przemyslawLupak" target="_blank" class="social__list--link"><i class="fab fa-github-square"></i></a>
+            </li>
+            <li class="social__list--item">
+                <a href="" class="social__list--link"><i class="fab fa-facebook-square"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przemyslaw Lupak</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha156-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" 
+    rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png"  alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">My skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Przemek Łupak</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro "><span>full-stack dev</span></p>
+        <img src="title-foto.jpg" class="intro__img" alt="a pic of me">
+    </section>
+
+    <!-- MY Servecies -->
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">Skills</h2>
+        <div class="skills show-on-scroll">
+            <div class="skill">
+                <h3>Programing</h3>
+                <p>Generally, in web-developing area I principally use the following languages:<strong>
+                    JavaScript, TypeScript, Html, CSS</strong> for front-end development; plus, for back-end
+                    development and database design, I usually use <strong>Java and SQL.</strong>
+                    In my collage (Opole university of technology), I also used<strong> C and objective C++</strong>, but I
+                    have less experiences with programming in these two languages, I used them to do
+                    my school projects mostly, but I really much willing to improving it in the near future. </p>
+            </div><!--close skill-->
+            <div class="skill">
+                <h3>Languages</h3>
+                <p>The languages I can speak are <strong>Polish, English and German.</strong> I come from Poland,
+                    Polish is my native language. (Is it any nice way to say this sentence?) I’m able to
+                    communicate fluently in English, my English level has reached to B2, moreover, I
+                    already had various experiences with speaking in English in different situations, not
+                    only during my work but also studied aboard as an international exchange student to
+                    Portugal previously. I had studied German long before, I still remember the basic
+                    vocabulary and still be able to communicatie, however, the work I used to had in
+                    Germany also helped me improve my German.</p>
+            </div><!--close skill-->
+            <div class="skill">
+                <h3>Tools</h3>
+                <p>In current projects I mainly use <strong>Angular SpringBoot, mySQl, Bootstrap and Git</strong>. I
+                    usually used Angular for dealing with Api&#39;s, some of them I created by myself by
+                SpringBoot and mySQL, for mySQL, which is a tool I’m using to build a database.
+                    Lastly, when pages layout is not too complicated, I’m using a bootstrap, after that, for
+                    
+                    managing my workflow, I&#39;m using a git tool embedded in visual studio code or pure
+                    git bash.</p>
+            </div><!--close skill-->
+        </div><!--close skills-->
+        <a href="#work" class="btn">My Work</a>
+    </section>
+    <!--About Me-->
+    <section class="about-me show-on-scroll" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"><span>“I like criticism. It makes you strong.”</span></p>
+        <div class="about-me__body">
+            <p>I am a young junior full-stack developer from Poland which studying in second year
+                of computer engineering, I’m searching for a new job experience. I&#39;m highly
+                motivated to work and to developing my skills as a programmer.
+                I&#39;m a team worker, I’m able to cooperate in a group work, also, I could be an
+                excellent individual worker, I focus on my goals and I will try my best to achieve it. At
+                the same time, I am communicative. I already had an experience with studying and
+                working abroad, thus when I’m facing a problem, I always can find a way to solve it,
+                I’m the type of person who like to take new challenges in my work.
+            </p>
+            <p>I have a strong passion for doing works which are relative to IT area. However, I
+                actually have more hobbies beside my work, such as driving my car, travelling and
+                studying some investments. During my free time, I enjoy reading and spending some
+                time with my family or friends, I like to do something together with them like, playing
+                boards and computer games, or simply hanging out with them. I’m also sporty,
+                playing volleyball is my favorite.
+            </p>
+        </div>
+        <img src="about-me-img.JPG" class="about-me__img" alt="">
+    </section>
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle"></p>
+        <div class="portfolio">
+            <!--Portfolio Item 01-->
+            <a href="work.html" class="portfolio__item">
+                <img src="pokedex.png" class="portfolio__img" alt="">
+                
+            </a>
+           
+       
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:przemyslaw.lupak@gmail.com" class="footer--link">przemyslaw.lupak@gmail.com</a>
+        <ul class="social-list">
+            <li class="social__list--item">
+                <a href="" class="social__list--link"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="social__list--item">
+                <a href="" class="social__list--link"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="social__list--item">
+                <a href="" class="social__list--link"><i class="fab fa-github-square"></i></a>
+            </li>
+            <li class="social__list--item">
+                <a href="" class="social__list--link"><i class="fab fa-facebook-square"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>
