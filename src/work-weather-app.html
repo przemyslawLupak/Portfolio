@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przemyslaw Lupak</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha156-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" 
+    rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="index.html"> <img src="logo.png"  alt=""></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <canvas class="canvas1" id="nav">
+        </canvas>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#Description" class="nav__link">Description</a></li>
+                <li class="nav__item"><a href="https://github.com/przemyslawLupak/Weather-app" target="_blank" class="nav__link">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- introduction -->
+    <section class="intro work-detail" id="home">
+        <h1 class="section__title section__title--work-detail">
+            Weather App
+        </h1>
+        <p class="section__subtitle section__subtitle--work "><span>front-end</span></p>
+        <img src="weather-app.png" class="intro__img" alt="a pic of me">
+    </section>
+    <section class="work-description" id="Description">
+        <h1>Work Description</h1>
+        <div class="spec">
+           <h3>Language: <span>JavaScript/Html/CSS/TypeScript</span></h3><br>
+        <h3>Tools: <span>Angular/Bootstrap</span></h3><br>
+        <h3>Date: <span>05.05.2020-09.05.2020</span></h3><br>
+        </div>
+        <div class="work-description-body">
+            <p>Weather app is one call application which after entering the city name displays the weather 
+                prevailing in it. The one I used is: Api openweathermap.com which provides all the information 
+                after my Http Cient call. The site was created without using bootstrap, however it's still fully 
+                responsive. Production was properly straightforward because the Api was simple and transparent. In 
+                this project I didn’t pay a lot of attention to design it and 
+                I will definitely come back to it again, however, it's transparent and simple for user to use it.
+            </p>
+        </div>
+       <a class="btn" href="https://github.com/przemyslawLupak/Weather-app" target="_blank">GitHub</a>
+    </section>
+     <!--Footer-->
+     <footer class="footer">
+        <a href="mailto:przemyslaw.lupak@gmail.com" class="footer--link">przemyslaw.lupak@gmail.com</a>
+        <ul class="social-list">
+            <li class="social__list--item">
+                <a href="https://www.instagram.com/przemas_to_dev/" target="_blank" class="social__list--link"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="social__list--item">
+                <a href="https://www.linkedin.com/in/przemysław-łupak-8467ab1a0/" target="_blank" class="social__list--link"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="social__list--item">
+                <a href="https://github.com/przemyslawLupak" target="_blank" class="social__list--link"><i class="fab fa-github-square"></i></a>
+            </li>
+            <li class="social__list--item">
+                <a href="https://www.facebook.com/dwuzetka" target="_blank"  class="social__list--link"><i class="fab fa-facebook-square"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
